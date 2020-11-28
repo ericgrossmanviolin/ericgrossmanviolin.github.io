@@ -1,0 +1,69 @@
+.audio-player {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.audio-player i {
+  font-size: 14vw !important;
+}
+
+.audio-player i {
+    font-size: 35px !important;
+    color: grey !important;
+}
+#next-button {
+    /*font-size: 8vw !important;*/
+}
+
+.text-primary {
+    color: #4f535b!important;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff !important;
+    background-color: #434343 !important;
+    border-color: transparent !important;
+    border:1px solid #fff;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+     text-shadow: none !important; 
+     background-image:none !important; 
+    background-image: none !important;
+     background-image: none !important; 
+     background-image: none !important; 
+    filter: none !important;
+    border:1px solid #fff;
+    border-color: #fff;
+}
+
+@media screen and (min-width:560px) {
+  .audio-player i {
+    font-size: 134px;
+  }
+  #next-button {
+    /*font-size: 100px;*/
+  }
+}
+
+#now-playing {
+  display: none;
+}
+
+.progress {
+  overflow: visible;
+}
+
+li.active:before {
+  font-family: "Material Icons";
+  content: "\e037";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+
+.ui-slider-handle {
+  /*border-radius: 50%;*/
+}

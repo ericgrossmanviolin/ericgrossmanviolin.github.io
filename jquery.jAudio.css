@@ -1,0 +1,24 @@
+/*
+    Plugin Name: jAudio
+    Copyright (C) 2018 - Mohammad Esmaeilzadeh
+    Author URL: http://www.bugless.ir/
+    Author Email: bugless.ir@yahoo.com
+    GitHub: https://github.com/buglessir
+    A jQuery plugin for convert <A> tags to simple audio player
+*/
+
+a[class^='jAudioBtn']{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    text-decoration: none;
+    background: url('controls.png');
+}
+
+a.jAudioBtnPlay{
+    background-position: top;
+}
+
+a.jAudioBtnPause{
+    background-position: bottom;
+}
